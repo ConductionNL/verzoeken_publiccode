@@ -1,0 +1,26 @@
+publiccodeYmlVersion: "0.1"
+
+name: "Verzoeken-api"
+url: "https://github.com/VNG-Realisatie/gemma-zaken"
+releaseDate: "2022-04-05"
+
+softwareType: standalone/backend
+
+platforms:
+  - web
+  
+categories:
+  - collaboration
+  - it-development
+  
+developmentStatus: beta
+
+description:
+  nl:
+    shortDescription: "Een API voor het registreren, bewerken en opvragen van verzoeken."
+    documentation: 'https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/VNG-Realisatie/verzoeken-api/master/src/openapi.yaml'
+    apiDocumentation: 'https://raw.githubusercontent.com/VNG-Realisatie/verzoeken-api/master/src/openapi.yaml'
+  en:
+    shortDescription: "An API to register, edit and read requests"
+    documentation: 'https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/VNG-Realisatie/verzoeken-api/master/src/openapi.yaml'
+    apiDocumentation: 'https://raw.githubusercontent.com/VNG-Realisatie/verzoeken-api/master/src/openapi.yaml'

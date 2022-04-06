@@ -20,7 +20,9 @@ description:
     shortDescription: "Een API voor het registreren, bewerken en opvragen van verzoeken."
     documentation: 'https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/VNG-Realisatie/verzoeken-api/master/src/openapi.yaml'
     apiDocumentation: 'https://raw.githubusercontent.com/VNG-Realisatie/verzoeken-api/master/src/openapi.yaml'
+    testDataLocation: 'https://raw.githubusercontent.com/ConductionNL/verzoeken_publiccode/main/data/verzoeken.json'
   en:
     shortDescription: "An API to register, edit and read requests"
     documentation: 'https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/VNG-Realisatie/verzoeken-api/master/src/openapi.yaml'
     apiDocumentation: 'https://raw.githubusercontent.com/VNG-Realisatie/verzoeken-api/master/src/openapi.yaml'
+    testDataLocation: 'https://raw.githubusercontent.com/ConductionNL/verzoeken_publiccode/main/data/verzoeken.json'

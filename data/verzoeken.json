@@ -1,0 +1,70 @@
+{
+  "collection": "https://raw.githubusercontent.com/VNG-Realisatie/verzoeken-api/master/src/openapi.yaml",
+  "schemas": {
+    "VERZOEK": [
+      {
+        "properties": {
+          "identificatie": "2548b7df-f61f-44d3-b3ce-fc57b4090574",
+          "bronorganisatie": "999990639",
+          "registratieDatum": "2022-04-06",
+          "voorkeurskanaal": "email",
+          "tekst": "blablabla",
+          "status": "ontvangen"
+        }
+      }
+    ],
+    "VERZOEK-INFORMATIEOBJECT":[
+      {
+        "properties": {
+          "informatieobject": "https://example.com",
+          "verzoek": "http://localhost/api/verzoeken/2548b7df-f61f-44d3-b3ce-fc57b4090574"
+        }
+      }
+    ],
+    "VERZOEK-PRODUCT":[
+      {
+        "properties": {
+          "verzoek": "http://localhost/api/verzoeken/2548b7df-f61f-44d3-b3ce-fc57b4090574",
+          "product": "https://example.com",
+          "productIdentificatie": {
+            "code": "ABC"
+          }
+        }
+      }
+    ],
+    "VERZOEK-CONTACTMOMENT":[
+      {
+        "properties": {
+          "verzoek": "http://localhost/api/verzoeken/2548b7df-f61f-44d3-b3ce-fc57b4090574",
+          "contactmoment": "https://example.com"
+        }
+      }
+    ],
+    "OBJECT-VERZOEK": [
+      {
+        "properties": {
+          "object": "https://example.com",
+          "verzoek": "http://localhost/api/verzoeken/2548b7df-f61f-44d3-b3ce-fc57b4090574"
+        }
+      }
+    ],
+    "KLANT-VERZOEK": [
+      {
+        "properties": {
+          "verzoek": "http://localhost/api/verzoeken/2548b7df-f61f-44d3-b3ce-fc57b4090574",
+          "klant": "https://example.com",
+          "rol": "initiator",
+          "indicatieMachtiging": "machtiginggever"
+        }
+      },
+      {
+        "properties": {
+          "verzoek": "http://localhost/api/verzoeken/2548b7df-f61f-44d3-b3ce-fc57b4090574",
+          "klant": "https://example.com",
+          "rol": "belanghebbende",
+          "indicatieMachtiging": "gemachtigde"
+        }
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "collection": "https://raw.githubusercontent.com/VNG-Realisatie/verzoeken-api/master/src/openapi.yaml",
   "schemas": {
-    "VERZOEK": [
+    "Verzoek": [
       {
         "properties": {
           "identificatie": "2548b7df-f61f-44d3-b3ce-fc57b4090574",
@@ -13,7 +13,7 @@
         }
       }
     ],
-    "VERZOEK-INFORMATIEOBJECT":[
+    "VerzoekInformatieObject":[
       {
         "properties": {
           "informatieobject": "https://example.com",
@@ -21,7 +21,7 @@
         }
       }
     ],
-    "VERZOEK-PRODUCT":[
+    "VerzoekProduct":[
       {
         "properties": {
           "verzoek": "http://localhost/api/verzoeken/2548b7df-f61f-44d3-b3ce-fc57b4090574",
@@ -32,7 +32,7 @@
         }
       }
     ],
-    "VERZOEK-CONTACTMOMENT":[
+    "VerzoekContactMoment":[
       {
         "properties": {
           "verzoek": "http://localhost/api/verzoeken/2548b7df-f61f-44d3-b3ce-fc57b4090574",
@@ -40,7 +40,7 @@
         }
       }
     ],
-    "OBJECT-VERZOEK": [
+    "ObjectVerzoek": [
       {
         "properties": {
           "object": "https://example.com",
@@ -48,7 +48,7 @@
         }
       }
     ],
-    "KLANT-VERZOEK": [
+    "KlantVerzoek": [
       {
         "properties": {
           "verzoek": "http://localhost/api/verzoeken/2548b7df-f61f-44d3-b3ce-fc57b4090574",

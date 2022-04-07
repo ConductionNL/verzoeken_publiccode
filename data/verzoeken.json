@@ -44,6 +44,7 @@
       {
         "properties": {
           "object": "https://example.com",
+          "objectType": "https://example.com",
           "verzoek": "http://localhost/api/verzoeken/2548b7df-f61f-44d3-b3ce-fc57b4090574"
         }
       }
